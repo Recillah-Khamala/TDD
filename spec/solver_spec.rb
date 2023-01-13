@@ -21,7 +21,7 @@ describe 'Solver' do
   end
 
   it 'Tests for fizzbuzz method' do
-    solve = Solver.new
-    expect(solve.fizzbuzz(6)).to eq('fizz')
+    solver = Solver.new
+    expect(solver.fizzbuzz(6)).to eq('fizz')
   end
 end
