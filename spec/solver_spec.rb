@@ -14,4 +14,9 @@ describe 'Solver' do
     solver = Solver.new
     expect(solver.factorial(5)).to eq(120)
   end
+
+  it "Tests for the reverse method" do
+    solver = Solver.new
+    expect(solver.reverse('hello')).to eq('olleh')
+   end
 end
