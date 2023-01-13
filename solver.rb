@@ -7,10 +7,11 @@ class Solver
     return 1 if number.zero?
 
     # recussion
-    number * factorial(number -1)
+    number * factorial(number - 1)
   end
 
+  # defining the reverse method
   def reverse(word)
+    word.reverse
   end
-  
 end
