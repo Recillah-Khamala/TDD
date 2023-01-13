@@ -10,4 +10,8 @@ describe 'Solver' do
     solver = Solver.new
     expect(solver.factorial(0)).to eq(1)
   end
+  it 'Tests for the factorial method' do
+    solver = Solver.new
+    expect(solver.factorial(5)).to eq(120)
+  end
 end
