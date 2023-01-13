@@ -19,4 +19,9 @@ describe 'Solver' do
     solver = Solver.new
     expect(solver.reverse('hello')).to eq('olleh')
   end
+
+  it 'Tests for fizzbuzz method' do
+    solve = Solver.new
+    expect(solve.fizzbuzz(6)).to eq('fizz')
+  end
 end
