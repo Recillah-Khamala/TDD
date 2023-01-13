@@ -16,7 +16,14 @@ class Solver
   end
 
   def fizzbuzz(int)
-    return 'fizz' if (int % 3).zero?
-    return 'buzz' if (int % 5).zero?
+    if (int % 3).zero? && (int % 5).zero?
+      'fizzbuzz'
+    elsif (int % 3).zero?
+      'fizz'
+    elsif (int % 5).zero?
+      'buzz'
+    else
+      int
+    end
   end
 end
