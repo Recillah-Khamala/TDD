@@ -9,4 +9,8 @@ class Solver
     # recussion
     number * factorial(number -1)
   end
+
+  def reverse(word)
+  end
+  
 end
