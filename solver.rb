@@ -5,5 +5,8 @@ class Solver
     # base cases
     return 'It has to be a positive number' if number.negative?
     return 1 if number.zero?
+
+    # recussion
+    number * factorial(number -1)
   end
 end
