@@ -20,17 +20,22 @@ describe 'Solver' do
     expect(solver.reverse('hello')).to eq('olleh')
   end
 
-  it 'Tests for fizzbuzz method' do
+  it 'Tests for fizzbuzz method return fizz' do
     solver = Solver.new
     expect(solver.fizzbuzz(6)).to eq('fizz')
   end
 
-  it 'Tests for fizzbuzz method' do
+  it 'Tests for fizzbuzz method return buzz' do
     solver = Solver.new
     expect(solver.fizzbuzz(20)).to eq('buzz')
   end
-  it 'Tests for fizzbuzz method' do
+  it 'Tests for fizzbuzz method return fizzbuzz' do
     solver = Solver.new
     expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
+  end
+
+  it 'Tests for fizzbuzz method return string' do
+    solver = Solver.new
+    expect(solver.fizzbuzz(7)).to eq('7')
   end
 end
